@@ -7,5 +7,7 @@ def check_of_number():
         return "Number is positif"
     elif num < 0:
         return "Number is negatif"
+    else:
+        return "Number is zero"
     
 print(check_of_number())
